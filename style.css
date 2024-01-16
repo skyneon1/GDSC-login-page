@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  background: url("form6_bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  width: 440px;
+  border: 2px solid rgb(229, 255, 249);
+  border-radius: 14px;
+  background-color: transparent;
+  color: rgb(95, 95, 95);
+  padding: 30px 40px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.container h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.container p {
+  margin-top: 8px;
+  text-align: center;
+}
+.container .inputs {
+  height: 50px;
+  width: 100%;
+  /* background-color: aquamarine; */
+  margin: 30px 0px;
+}
+.inputs input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  border: 2px solid rgba(89, 89, 89, 0.97);
+  border-radius: 43px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  padding: 20px 45px 20px 20px;
+}
+.inputs input::placeholder {
+  color: rgb(52, 52, 52);
+}
+.container .btn {
+  width: 100%;
+  height: 45px;
+  background-color: rgb(225, 225, 225);
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, -1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+}
+.container .signin {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+.signin p a {
+  color: rgb(135, 135, 135);
+  text-decoration: none;
+  font-weight: 600;
+}
+.signin p a:hover {
+  text-decoration: underline;
+  color: rgb(164, 164, 164);
+  font-size: 15px;
+}
+/* 
+.container .btn:hover{
+  font-size: 20px;
+  color:rgb(26, 26, 26)
+} */
