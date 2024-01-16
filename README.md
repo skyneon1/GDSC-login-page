@@ -12,11 +12,9 @@ This is a simple login page designed for the enrollment in  GDSC club, providing
 
 ## Deployment
 
-To deploy this project click on the below project run
+To deploy this project click on the below 
 
-```bash
-  npm run deploy
-```
+https://skyneon1.github.io/GDSC-login-page/
 
 
 ## Authors
@@ -26,7 +24,7 @@ To deploy this project click on the below project run
 
 ## How to Use
 1. Clone the repository:
-git clone https://github.com/your-username/gdsc-login-page.git
+git clone https://github.com/skyneon1/GDSC-login-page.git
 
 2. Open the index.html file in a web browser to view the login page.
 
