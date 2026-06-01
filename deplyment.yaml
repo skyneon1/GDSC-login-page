@@ -1,0 +1,21 @@
+  apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    name: gdsc-login
+  spec:
+    replicas: 2
+    selector:
+      matchLabels:
+        app: gdsc-login
+    template:
+      metadata:
+        labels:
+          app: gdsc-login
+      spec:
+        containers:
+        - name: gdsc-login
+          image: gdsc-login
+          imagePullPolicy: Never
+          ports:
+          - containerPort: 80
+
